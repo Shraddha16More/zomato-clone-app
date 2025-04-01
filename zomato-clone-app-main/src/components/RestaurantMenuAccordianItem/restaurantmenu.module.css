@@ -1,0 +1,32 @@
+.restaurantMenu {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em 1em;
+}
+
+.flexMenuItem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.imgDiv {
+    text-align: center;
+    
+}
+
+.addItem {
+    /* padding: 0.4em 1.1em;
+    border-radius: 10px; */
+    display: block;
+    padding: 0.4em 0.6em;
+    color: #0d471c;
+    background-color:#c2ffd2;
+    border: 1px solid #0d471c;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 auto;
+    /* width: 100%; */
+
+}

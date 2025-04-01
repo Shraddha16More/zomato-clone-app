@@ -1,0 +1,173 @@
+.container {
+    /* width: 1080px; */
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+nav {
+    color: #a2a2a2;
+    padding: 8px 1em;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #a2a2a2;
+   
+}
+
+.logo {
+    width: 150px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul {
+    list-style:none;
+}
+
+li {
+    padding: 0.8em 0.5em;
+}
+
+.searchRest {
+    padding: 0.7em 1em;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 3px 8px;
+    border: 1px solid #f7f7f7;
+}
+
+.searchRest
+:focus {
+    outline : none;
+    /* border: 1px solid #f7f7f7; */
+
+}
+
+.searchBtn {
+    padding: 0.4em 0.7em;
+    border-radius: 8px;
+    background-color: #ef4f5f;
+    color: white;
+    /* border: none; */
+    margin: 0.5em;
+    border: 1px solid #ef4f5f;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 3px 8px;
+    cursor: pointer;
+
+}
+
+.searchBtn:hover {
+    background-color: #ee071e;
+}
+
+.cartLi {
+    cursor: pointer;
+}
+
+.cartImg {
+    width: 100px;
+    padding: 0.3em;
+}
+
+.cartItemsContainer {
+    position: relative;
+    height: 500px;
+
+}
+
+.cartItemDiv {
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.716);
+    /* top: 70px; */
+    right: 50px;
+    color: white;
+    width:350px; 
+    /* height:400px; */
+    max-height: 400px;
+    border: 2px solid black;
+    overflow: auto;
+
+}
+
+.cartItems {
+    align-items: center;
+    padding: 0.5em;
+
+}
+
+.cartItemDetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border: 1.5px solid white;
+    font-size: 0.8rem;
+}
+
+.cartItemWrapper {
+    position: relative;
+    top: 10px;
+    right: 30px;
+}
+.checkoutBtn {
+    /* position: absolute; */
+    /* bottom: 0; */
+    padding: 0.5em 1em;
+    color: black;
+    /* width: 100%; */
+    background-color: white;
+    /* bottom: -38px; */
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid black;
+    /* right: 0; */
+    cursor: pointer;
+    /* position: fixed; */
+}
+
+.cartCloseBtn {
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+}
+
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container-width {
+    width: 80%;
+
+}
+
+@media (min-width:768px) { 
+
+    .navLinks{
+        display: none !important;
+    }
+
+}
+

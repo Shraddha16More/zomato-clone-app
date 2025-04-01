@@ -1,0 +1,22 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 1em auto;
+    padding: 1em 0.5em;
+}
+
+.info {
+    width: 40%;
+    text-align: justify;
+}
+
+.imgDiv {
+    text-align: center;
+}
+
+.styleImg {
+    width:"300px";
+    border-radius:"50%"
+}

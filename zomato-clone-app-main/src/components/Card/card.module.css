@@ -1,0 +1,63 @@
+.card {
+    /* width: 30%; */
+    width: 300px;
+    border-radius: 10px;
+    padding: 0.8em;
+    /* height: 350px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.foodimg {
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+.details {
+    padding: 0.5em;
+}
+
+.firstLine, .secondLine, .thirdLine, .fourthLine {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.secondLine,.thirdLine,.fourthLine {
+    color: #717171;
+}
+
+.secondLine div {
+    /* max-width: 50%; */
+    font-size: 0.7rem;
+}
+
+.restName {
+    font-weight: 600;
+}
+
+.ratings {
+    color: white;
+    background-color: #267e3e;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+
+.addToCartBtn {
+    padding: 0.4em 0.6em;
+    color: #0d471c;
+    background-color:#c2ffd2;
+    border: 1px solid #0d471c;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}

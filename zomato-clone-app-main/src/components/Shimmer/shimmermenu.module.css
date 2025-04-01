@@ -1,0 +1,58 @@
+.restaurantMenu {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em 1em;
+}
+
+.shimmemenurh1 {
+    width: 250px;
+    height: 32px;
+    background-color: #eaeaf4;
+}
+
+.shimmemenurh2 {
+    margin: 1rem 0px;
+    width: 400px;
+    height: 25px;
+    background-color: #eaeaf4;
+}
+
+.shimmerMenuItem {
+    width: 300px;
+    height: 30px;
+    background-color: #eaeaf4;
+    margin: 1em 0;
+}
+
+.shimmerMenuItemInfo {
+    width: 70%;
+    height: 90px;
+    background-color: #eaeaf4;
+    margin: 1em 0;
+}
+
+.shimmerflexMenuItem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-bottom: 2px solid #eaeaf4;
+}
+
+.imgDiv {
+    text-align: center;
+    background-color: #eaeaf4;
+    
+}
+
+.addItem {
+    /* padding: 0.4em 1.1em;
+    border-radius: 10px; */
+    display: block;
+    padding: 0.4em 0.6em;
+    background-color: #eaeaf4;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 auto;
+    /* width: 100%; */
+
+}
